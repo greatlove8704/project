@@ -30,6 +30,25 @@
         </div>
     </div>
 
+    <!-- Trailers Section -->
+    <div class="row pt-5">
+        <h1>Trailers</h1>
+        <div class="row">
+            {% for trailer in data['trailers'] %}
+            <div class="col-12 col-md-6 col-lg-4 pb-3">
+                <div class="card text-bg-dark" style="box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ trailer.name }}</h5>
+                        <div class="ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ trailer.key }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
     <div class="row pt-5">
         <h1>Starcast</h1>
         <div class="row">
