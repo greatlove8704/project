@@ -9,7 +9,7 @@ Cách run nhanh gọn nhất sử dụng luôn codespace
 
 3. Tạo tài khoản imdb để lấy API KEY
 
-Trong terminal hãy chạy dòng code: echo "API_KEY=<api_key>" > .env (Trong đó hãy paste api_key chính là API KEY của bạn)
+ Trong terminal hãy chạy dòng code: echo "API_KEY=<api_key>" > .env (Trong đó hãy paste api_key chính là API KEY của bạn)
 
 4. Trong terminal để xuất API KEY tiếp tục chạy: export API_KEY=your_api_key_value
 
