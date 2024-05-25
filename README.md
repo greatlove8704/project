@@ -11,7 +11,7 @@ Cách run nhanh gọn nhất sử dụng luôn codespace
 
    Trong terminal hãy chạy dòng code: echo "API_KEY=<api_key>" > .env (Trong đó hãy paste api_key chính là API KEY của bạn)
 
-4. Trong terminal để xuất API KEY tiếp tục chạy: export API_KEY=your_api_key_value
+4. Trong terminal để xuất API KEY tiếp tục chạy: export API_KEY=quăng api key của bạn vô đây nha
 
 5. Cuối cùng chạy: python main.py
 
