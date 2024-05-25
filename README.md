@@ -1,4 +1,7 @@
 # project
+
+Thành viên gồm: 22022612 Chu Huỳnh Đức và 22022539 Nguyễn Bảo Sơn
+
 Cách run nhanh gọn nhất sử dụng luôn codespace
 
 1. Truy cập vào thanh URL : "https://github.com/greatlove8704/project/codespaces"
