@@ -7,7 +7,7 @@ Cách run nhanh gọn nhất sử dụng luôn codespace
 
 2. Trong Terminal hãy code: pip install -r ./requirements.txt
 
-3. Tạo tài khoản imdb để lấy API KEY
+3. Tạo tài khoản tmdb để lấy API KEY
 
    Trong terminal hãy chạy dòng code: echo "API_KEY=<api_key>" > .env (Trong đó hãy paste api_key chính là API KEY của bạn)
 
